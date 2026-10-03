@@ -19,7 +19,7 @@
 
 .nav__logo,
 .nav__toggle {
-    color: var(--title-color);
+    color: #006d77;
     font-weight: var(--font-medium);
 }
 
