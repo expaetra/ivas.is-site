@@ -45,7 +45,7 @@ const Header = () => {
         <header className='header'>
             <nav className="nav container">
                 {/* Logo that navigates to the Home Page */}
-                <a href="#" className="nav_logo" onClick={handleLogoClick}>
+                <a href="#" className="nav__logo" onClick={handleLogoClick}>
                     P I
                 </a>
 
