@@ -1,7 +1,11 @@
-# petra-site
+# ivas.is-site
 
-Personal portfolio of Petra Ivas (ivas.is) - React (Create React App).
-Deliberately no public CV - the page is a portfolio and introduction; the CV goes to recruiters directly.
+Personal portfolio site. Live at [ivas.is](https://ivas.is).
+
+<img width="1101" height="586" alt="ivas is-screenshot" src="https://github.com/user-attachments/assets/064dc69e-5589-4b40-87b8-d929573d8e1c" />
+
+
+React (Create React App), served by Caddy on a DigitalOcean droplet.
 
 ## Run locally
     npm install
@@ -9,10 +13,9 @@ Deliberately no public CV - the page is a portfolio and introduction; the CV goe
 
 ## Content lives in
 - src/components/home/Data.jsx         - name, tagline, bio
-- src/components/home/Social.jsx       - GitHub / LinkedIn (TODO: add URL) / email
-- src/components/research/Research.jsx - the Projects list
+- src/components/home/Social.jsx       - GitHub / LinkedIn
+- src/components/research/Projects.jsx - the Projects list
 - src/components/skills/Skills.jsx     - the skills groups
-- public/favicon/                      - TODO: replace icons (currently inherited)
 
 ## Deploy (to the droplet)
     npm run build
