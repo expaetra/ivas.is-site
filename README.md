@@ -1,7 +1,6 @@
 # petra-site
 
 Personal portfolio of Petra Ivas (ivas.is) - React (Create React App).
-Deliberately no public CV - the page is a portfolio and introduction; the CV goes to recruiters directly.
 
 ## Run locally
     npm install
