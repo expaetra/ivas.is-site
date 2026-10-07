@@ -13,9 +13,10 @@ const Projects = () => {
         },
         {
             title: "Ugljan by Boat",
-            subtitle: "Production website for a boat rental and tour business in the Zadar archipelago, Croatia - built, deployed and maintained for a paying client. React on a Dockerised VPS.",
-            year: 2025,
-            link: "https://www.ugljanbyboat.com"
+            subtitle: "Production website for a boat rental and tour business in the Zadar archipelago, Croatia - built, deployed and maintained for a paying client. Originally WordPress on managed hosting; rebuilt in React in 2026 on a Dockerised VPS, cutting hosting costs by ~60% and clearing the way for NLP-based search.",
+            year: "2025 · rebuilt 2026",
+            link: "https://www.ugljanbyboat.com",
+            repo: "https://github.com/expaetra/ugljan-by-boat"
         }
     ]
     return (
