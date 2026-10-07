@@ -14,7 +14,7 @@ React (Create React App), served by Caddy on a DigitalOcean droplet.
 ## Content lives in
 - src/components/home/Data.jsx         - name, tagline, bio
 - src/components/home/Social.jsx       - GitHub / LinkedIn
-- src/components/research/Projects.jsx - the Projects list
+- src/components/projects/Projects.jsx - the Projects list
 - src/components/skills/Skills.jsx     - the skills groups
 
 ## Deploy (to the droplet)
