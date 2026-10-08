@@ -17,7 +17,14 @@ const Projects = () => {
             year: "2025 · rebuilt 2026",
             link: "https://www.ugljanbyboat.com",
             repo: "https://github.com/expaetra/ugljan-by-boat"
-        }
+        },
+        {
+            title: "Croatian Tourism Analytics",
+            subtitle: "End-to-end data pipeline examining Croatian tourism around the country's 2023 Schengen accession. Python ETL loads 94k observations from official statistics into a MySQL star schema; six research questions implemented as SQL views, served through an Express API to a React dashboard. Deployed as a static build with pre-computed views - no database running in production.",
+            year: 2026,
+            link: "https://tourism.ivas.is",
+            repo: "https://github.com/expaetra/croatian-tourism-analytics"
+        },
     ]
     return (
         <section className='projects section' id="projects">
